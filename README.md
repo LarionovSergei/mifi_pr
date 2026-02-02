@@ -31,10 +31,17 @@ MVP AI-агента для поиска и анализа статей с Хаб
    pip install -r requirements.txt
    ```
 4. **Настройте переменные окружения**
-   Переименуйте `.env.example` (или создайте `.env`) и укажите токен бота:
+   
+   Создайте файл `.env` в корне проекта:
+   ```env
+   BOT_TOKEN=ваш_telegram_bot_token
+   OPENAI_API_KEY=ваш_openai_api_key
    ```
-   BOT_TOKEN=ваш_токен
-   ```
+   
+   **Где получить токены:**
+   - **BOT_TOKEN**: Создайте бота через [@BotFather](https://t.me/BotFather) в Telegram командой `/newbot`
+   - **OPENAI_API_KEY**: Получите на [platform.openai.com](https://platform.openai.com) в разделе API Keys (потребуется пополнить баланс ~$5)
+   
 5. **Запустите бота**
    ```bash
    python bot/main.py
