@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment variables (ВАЖНО - содержит секреты!)
+.env
+
+# ChromaDB векторная база (большая, генерируется автоматически)
+chroma_db/
+
+# Внутренние документы (не для публикации)
+ИТОГОВЫЙ_ОТЧЕТ.md
+ТЗ.md
+COMPLIANCE_CHECK.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Gemini artifacts
+.gemini/
